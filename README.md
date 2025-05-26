@@ -6,4 +6,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app
 
 The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
 
-To be continued...
+## Deploy
+
+- Deploy to Vercel.
+- GitHub Pages can't support displaying the pictures in the assets folder. I tried to fix it by adding `basePath` to `next.config.js` but no luck.
