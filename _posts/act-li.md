@@ -1,12 +1,34 @@
 ---
-title: "Dynamic Routing and Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+title: "Test local Github action tool: act cli"
+excerpt: "test github action in local"
+coverImage: "/assets/blog/act-li/cover.jpg"
+date: "2025-05-26T12:35:07.322Z"
 author:
-  name: JJ Kasper
+  name: JianAn Chen
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets/blog/act-li/cover.jpg"
 ---
 
+# Test local Github action tool: act cli
+
+Summary: can't use it!
+
+## source code
+
+- [Repo](https://github.com/nektos/act)
+- [VS-code extension](https://github.com/SanjulaGanepola/github-local-actions)
+
+## Results of testing
+
+- Rather than having to commit/push every time you want to test out the changes you are making to your .github/workflows/ files (or for any changes to embedded GitHub actions), you can use act to run the actions locally.
+- [Issue 973](https://github.com/nektos/act/issues/973) has been not fixed for a while
+
+
+# Try to fix issue 873
+
+I try to fix it but not working
+
+- Delete and re-install Docker image / volumes
+- Delete and re-install act cli
+- Install the Docker image for M-chip Mac
